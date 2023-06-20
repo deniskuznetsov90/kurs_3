@@ -58,6 +58,10 @@ def test_executed_operations():
     assert executed_operations([{"state": "EXECUTED"}]) == [{"state": "EXECUTED"}]
 
 
+def test_last_operations():
+    assert last_operations([{"date": "2018-09-12T21:27:25.241689"}]) == [{"date": "2018-09-12T21:27:25.241689"}]
+
+
 def test_account_mask():
     assert account_mask('Счет 90424923579946435907') == "Счет ** 5907"
 
