@@ -1,4 +1,4 @@
-from Scripts.utils import load_data, executed_operations, \
+from utils import load_data, executed_operations, \
     last_operations, account_mask, card_mask, date
 
 
